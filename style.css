@@ -1,0 +1,142 @@
+/* Common styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #444343;
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    color: #151414;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn {
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #005FAC;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+
+/* Banner styles */
+header {
+    background-image: url("images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+
+
+}
+
+header .container {
+    display: flex;
+    justify-content: right;
+}
+
+
+.header-content {
+    width: 40%;
+    color: #fff;
+    text-align: right;
+}
+
+.header-content h1 {
+    color: #fff;
+}
+
+.header-content p {
+    margin-bottom: 50px;
+}
+
+/* Failures Section Style */
+.failures {
+    margin: 150px 0;
+}
+
+.failures .container {
+    display: flex;
+    align-items: center;
+}
+
+.failures-image,
+.failures-content {
+    width: 50%;
+}
+
+ul li.failures-list {
+    list-style-image: url('images/tick.png');
+    margin: 5px 0;
+}
+
+/* My Plans Section */
+.plans {
+    margin: 150px 0;
+}
+
+.plans h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.single-plan {
+    text-align: center;
+    margin: 0 15px;
+    width: 25%;
+}
+
+.plan-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Call to action */
+.cta-content {
+    background-image: linear-gradient(to right,
+            rgba(0, 95, 172, 1),
+            rgba(0, 0, 0, 0)), url("images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.cta-content h2 {
+    color: #fff;
+    margin-top: 0;
+}
