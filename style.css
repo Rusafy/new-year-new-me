@@ -234,3 +234,7 @@ footer .subscribe input:focus-visible {
 footer .about .about-content {
     width: 50%;
 }
+
+.social-icon img {
+    margin-right: 15px;
+}
