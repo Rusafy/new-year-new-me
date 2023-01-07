@@ -44,7 +44,7 @@ a {
     padding: 15px 20px;
     background-color: #fff;
     color: #005FAC;
-    border-radius: 4px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     line-height: 45px;
@@ -109,7 +109,7 @@ header .container {
 .feature-box {
     margin: 0 15px;
     border: 1px solid #d1d1d1;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 50px;
     width: 33%;
 }
@@ -219,7 +219,7 @@ footer .subscribe input {
     line-height: 50px;
     margin-bottom: 20px;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 8px;
     border: 1px solid #fff;
     color: #fff;
     background: transparent;
